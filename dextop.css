@@ -1,0 +1,165 @@
+/*
+Dextop
+*/
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+/* nav-bar design starts  */
+
+
+.nav-logo{
+    text-align: left;
+    
+
+}
+
+.nav-heading{
+    text-align: right;
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.nav-menu a{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin: 0 25px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    padding: 5px 10px;
+
+}
+
+.nav-menu a:before{
+    content: '';
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid#00DB3A;
+    border-width: 0 0 3px 3px;
+    transition: .5s;
+    opacity: 0;
+
+}
+
+.nav-menu a:hover:before{
+    bottom: -8px;
+    left: -8px;
+    opacity: 1;
+}
+
+.nav-menu a:after{
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #00DB3A;
+    border-width: 3px 3px 0 0;
+    transition: .5s;
+    opacity: 0;
+}
+
+.nav-menu a:after{
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid#00DB3A;
+    border-width: 3px 3px 0 0;
+    transition: .5s;
+    opacity: 0;
+}
+
+.nav-menu a:hover:after{
+    top: -8px;
+    right:-8px;
+    opacity: 1;
+}
+
+.nav-menu a:hover{
+    color: #fff;
+    background: #00DB3A;
+}
+
+
+
+
+
+
+
+/* nav-ber design ends */
+
+
+/* Profile design starts here */
+
+
+.profile .coderIcon1{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transition: width 2s, transform 2s;
+
+}
+
+.profile .coderIcon1:hover{
+    transform: rotate(360deg);
+    
+
+}
+
+.profile .coderIcon2{
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    transition: width 2s, transform 2s;
+
+}
+
+.profile .coderIcon2:hover{
+    transform: rotate(360deg);
+    
+
+}
+
+
+
+
+
+
+
+
+
+/* Profile design starts here */
+
+
+
+
+
+
+
+
+
